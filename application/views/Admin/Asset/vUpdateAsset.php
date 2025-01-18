@@ -105,6 +105,7 @@
                                         <input type="text" name="pemegang" value="<?= $asset->pemegang_hak ?>" class="form-control" id="exampleInputPassword1" placeholder="Pemegang Hak">
                                         <?= form_error('pemegang', '<small class="text-danger pl-3">', '</small>'); ?>
                                     </div>
+                                    <!--  -->
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="form-group">
