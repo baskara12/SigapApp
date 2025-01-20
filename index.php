@@ -55,6 +55,9 @@
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
 
+	error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
+
 /*
  *---------------------------------------------------------------
  * ERROR REPORTING

@@ -1,3 +1,5 @@
+error_reporting = E_ALL & ~E_DEPRECATED
+
 <?php
 defined('BASEPATH') or exit('No direct script access allowed');
 
